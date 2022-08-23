@@ -1,15 +1,177 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Mihael Kovač</title>
+
+<meta charset="utf-8">
+<title>Mihael Kovač</title>
+
+<!-- ----------------------- POČETAK CSSa ----------------------- -->
+
+<style type="text/css">
+	
+	body {
+		background-color: #FFF;
+	}
+
+	header, footer {
+		color:  grey;
+		background-color: #EEE;
+		text-align: right;
+		font-style: italic;
+	}
+
+	h1 {
+		color: darkslategrey;
+		background-color: #FFF;
+		font-size: 72px;
+		font-variant-caps: all-small-caps;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	h2 {
+		color: darkslategrey;
+		background-color: #FFF;
+		font-size: 36px;
+		font-variant-caps: all-small-caps;
+		font-weight: bold;
+	}
+
+	h3 {
+		color: darkslategrey;
+		background-color: #FFF;
+		font-size: 28px;
+		font-variant-caps: all-small-caps;
+		font-weight: bold;
+	}
+
+	h4 {
+		color: darkslategrey;
+		background-color: #FFF;
+		font-size: 24px;
+		font-variant-caps: all-small-caps;
+		font-weight: bold;
+	}
+
+	h5 {
+		color: darkslategrey;
+		background-color: #FFF;
+		font-size: 20px;
+		font-variant-caps: all-small-caps;
+		font-weight: bold;
+	}
+
+	h6 {
+		color: darkslategrey;
+		background-color: #FFF;
+		font-size: 18px;
+		font-variant-caps: all-small-caps;
+		font-weight: bold;
+	}
+
+	p {
+		width: 450px;
+		text-indent: 20px;
+	}
+
+	p.kvot {
+		position: relative;
+			left: 40px;
+		width: 410px;
+		font-style: italic;
+	}
+
+	#bloksaslikom {
+		font-style: italic;
+	}
+
+	div.menu {
+		list-style: none;
+		text-align: center;
+		background-color: #EEE;
+		height: 80px;
+		line-height: 80px;
+	}
+
+	div.menu a:link {
+		color: lightgray;
+		text-decoration: none;
+		font-variant-caps: all-small-caps;
+		background-color: darkslategrey;
+		border: 4px solid #333;
+		display: inline-block;
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		margin: 5px;
+	}
+
+	div.menu a:visited {
+		color: lightgray;
+		text-decoration: none;
+		font-variant-caps: all-small-caps;
+		background-color: darkslategrey;
+		border: 4px solid #333;
+		display: inline-block;
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		margin: 5px;
+	}
+
+	div.menu a:hover {
+		color: white;
+		background-color: #385454;
+		border-color: #000;
+	}
+
+	div.menu a:active {
+		background-color: darkgoldenrod;
+		border-color: #333;
+	}
+
+	a:link, a:visited {
+		color: darkblue;
+		text-decoration: underline;
+
+	}
+
+	a:hover {
+		color: lightblue;
+	}
+
+	a:active {
+		color: darkgoldenrod;
+	}
+
+
+</style>
+
 </head>
+
+<!-- ----------------------- POČETAK TIJELA STRANICE ----------------------- -->
+
 <body>
+
 	<header id="top">
-		Ovu internetsku stranicu napravio sam ja!
+		<div>
+			zaglavlje: Ovu internetsku stranicu napravio sam ja!
+		</div>
 	</header>
 
 	<h1>Dobrodošli</h1>
+
+	<div class="menu">
+		<a href="">Izbornik 1</a>
+		<a href="">Izbornik 2</a>
+		<a href="">Izbornik 3</a>
+		<a href="">Izbornik 4</a>
+		<a href="">Izbornik 5</a>
+	</div>
 
 	<p>
 		na internetsku stranicu.<br>
@@ -17,11 +179,13 @@
 		a vi ih čitate. I ja, dok ih<br>
 		čitam. Super.
 	</p>
+
+	
 	
 	<h3>Djelovi</h3>
 
 	<div>
-		Kao što smo već imali prilike primjetiti, postoje djelovi;
+		Kao što ćemo imali prilike primjetiti, postoje djelovi;
 	</div>
 
 	<ol>
@@ -41,25 +205,26 @@
 		Pri čemu je važno &quot;razumjeti&quot; kako: četvrti nije &lt; treći, niti je prvi &gt; drugi, međutim prvi dolazi prije drugog, trećeg &amp; četvrtog. Najs.
 	</div>
 
-	<h3>U nastavku,</h3>
+	<h3>U nastavku</h3>
 
 	<div id="bloksaslikom">
-		<p>Ovdje je jedna od mojih fotografskih slika.</p>
-		<p><img src="fotografija.jpg"></p>
-		<p>Kako vam se dopada?</p>
+		<div>Ovo je jedna od mojih fotografskih slika.<br></div>
+		<div><img src="fotografija.jpg"></div>
+		<div>Kako vam se dopada?</div>
 	</div>
 
 	<p>
 		Ovdje je bio neki Lorem ipsum tekst skinut s <a href="https://www.lipsum.com/" title="Lorem ipsum generator" target="_blank">ove stranice</a>.
 	</p>
 
+	<h5>Na primjer:</h5>
+		
 	<div id="blokteksta1">
-		Na primjer:
 		<p id="parg1">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula velit ac neque molestie aliquet. In facilisis auctor orci vel scelerisque. Aenean porttitor facilisis tempor. Phasellus feugiat porttitor vulputate. Nulla facilisi. Nunc maximus, mi aliquet blandit vehicula, purus felis maximus est, non bibendum leo arcu in dolor. Maecenas vitae urna felis. Ut nunc ligula, elementum id fringilla at, consectetur ac augue. Ut pharetra posuere posuere. Vivamus consequat eros diam, sed lobortis erat imperdiet ac. Nam ut tortor vel nulla tempor sollicitudin. Duis cursus eu purus vitae porttitor.
 		</p>
 
-		<p id="parg2">
+		<p id="parg2" class="kvot">
 			Nam lorem ex, malesuada accumsan tincidunt ut, pharetra a enim. Cras luctus tincidunt quam et aliquam. Praesent tincidunt pulvinar bibendum. Morbi interdum enim luctus, convallis augue ac, maximus neque. Nam neque diam, lacinia ut risus a, pulvinar hendrerit tellus. Donec urna sapien, gravida vel egestas ut, varius sit amet elit. Vestibulum scelerisque feugiat erat, ut fringilla enim mollis in. Fusce eu euismod ligula. Donec vel nisi facilisis, vulputate arcu eu, rhoncus augue. Nulla magna nibh, ultricies dictum turpis ac, convallis tempor sem. Etiam sollicitudin a turpis nec convallis.
 		</p>
 
@@ -77,7 +242,9 @@
 	</div>
 
 	<footer>
-		Vrati se na <a href="#blokteksta1">početak Lipsuma</a> ili na <a href="#top">vrh stranice</a>.
+		<div>
+			Vrati se na <a href="#blokteksta1">početak Lipsuma</a> ili na <a href="#top">vrh stranice</a>.
+		</div>
 	</footer>
 </body>
 </html>

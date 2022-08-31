@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+	background-color: #FFF;
+	font-family: 'EB Garamond', serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+header, footer {
+	color:  grey;
+	background-color: #EEE;
+	text-align: right;
+	font-style: italic;
+}
+
+p {
+	text-indent: 20px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+p.kvot {
+	position: relative;
+	left: 40px;
+	width: 410px;
+	font-style: italic;
+}
+
+#bloksaslikom {
+	font-style: italic;
+}
+
+div.tijelo {
+	background-color: #EFEFEF;
+	position: absolute;
+	top: 180px;
+	left: 200px;
+	padding: 0px 20px 20px 20px;
+	width: 620px;
+}
+
+div.izbornik {
+	list-style: none;
+	text-align: left;
+	background-color: #A2B0BB;
+	position: absolute;
+	top: 180px;
+	width: 200px;
+	overflow: hidden;
+	padding: 15px;
+}
+
+div.izbornik a:link {
+	color: #F9F9F9;
+	text-decoration: none;
+	background-color: #2C4D66;
+	border: 5px solid #A2B0BB;
+	display: block;
+	height: 40px;
+	text-align: left;
+	margin: 0px;
+	padding: 5px 5px 5px 15px;
+}
+
+div.izbornik a:visited {
+	color: #F9F9F9;
+	text-decoration: none;
+	background-color: #2C4D66;
+	border: 5px solid #A2B0BB;
+	display: block;
+	height: 40px;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+}
+
+div.izbornik a:hover {
+	color: #03223A;
+	background-color: #A2B0BB;
+	border-color: #2C4D66;
+}
+
+div.izbornik a:active {
+	color: #F9F9F9;
+	background-color: #9F763E;
+	border-color: #A2B0BB;
+}
+
+a:link, a:visited {
+	color: green;
+	text-decoration: underline;
+
+}
+
+a:hover {
+	color: darkseagreen;
+}
+
+a:active {
+	color: darkgoldenrod;
+}

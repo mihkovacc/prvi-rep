@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* naslovi stranice */
+
+h1 {
+	margin: 0px;
+	padding: 20px 0px 0px 20px;
+	color: #5C768B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 72px;
+	font-weight: bold;
+	text-align: left;
+	/* text-shadow: 5px 3px 5px; */
+}
+
+h2 {
+	margin: 0px;
+	padding: 20px 0px 0px 20px;
+	color: #5C768B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 0px;
+	padding: 20px 0px 0px 20px;
+	color: #5C768B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: left;
+}
+
+/* naslovi u tekstu */
+
+h4 {
+		margin: 20px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #5C768B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+}
+
+h5 {
+	margin: 15px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #5C768B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h6 {
+	margin: 15px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #5C768B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+}

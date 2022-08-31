@@ -9,55 +9,6 @@ header, footer {
 	font-style: italic;
 }
 
-h1 {
-	color: darkslategrey;
-	background-color: #FFF;
-	font-size: 72px;
-	font-variant-caps: all-small-caps;
-	font-weight: bold;
-	text-align: center;
-}
-
-h2 {
-	color: darkslategrey;
-	background-color: #FFF;
-	font-size: 36px;
-	font-variant-caps: all-small-caps;
-	font-weight: bold;
-}
-
-h3 {
-	color: darkslategrey;
-	background-color: #FFF;
-	font-size: 28px;
-	font-variant-caps: all-small-caps;
-	font-weight: bold;
-}
-
-h4 {
-	color: darkslategrey;
-	background-color: #FFF;
-	font-size: 24px;
-	font-variant-caps: all-small-caps;
-	font-weight: bold;
-}
-
-h5 {
-	color: darkslategrey;
-	background-color: #FFF;
-	font-size: 20px;
-	font-variant-caps: all-small-caps;
-	font-weight: bold;
-}
-
-h6 {
-	color: darkslategrey;
-	background-color: #FFF;
-	font-size: 18px;
-	font-variant-caps: all-small-caps;
-	font-weight: bold;
-}
-
 p {
 	width: 450px;
 	text-indent: 20px;
@@ -90,7 +41,7 @@ div.izbornik {
 
 div.tijelo {
 	background-color: #EEE;
-	position: absolute;
+	position: relative;
 	top: 120px;
 	left: 280px;
 	width: 620px;
